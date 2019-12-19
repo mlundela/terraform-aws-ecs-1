@@ -35,12 +35,12 @@ variable "instance_log_group" {
 
 variable "instance_root_volume_size" {
   description = "Root volume size (default=50)"
-  default     = 50
+  default     = 22
 }
 
 variable "instance_type" {
   description = "EC2 instance type (default=t2.micro)"
-  default     = "t2.micro"
+  default     = "t3.micro"
 }
 
 variable "name" {
